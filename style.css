@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.accordion-header button:focus{
+  color: #1EB808 !important;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+.accordion-item{
+  border: 2px solid red;
+  border-left: 2px solid yellow;
+}
+
+
+.banner{
+    background-image: url(./image/banner.png);
+    height: 500px;
+}
+.btn-top{
+    background: #1EB808;
+}
+.cardtop{
+    height: 85%;
+    background-image: url(./image/image-top.png);
+    background-size: cover;
+    padding: 20px;
+}
+
+.card2{
+  background-image: url('image/bg1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card3{
+  background-image: url('image/bg2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card4{
+  background-image: url('image/bg2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.centerimg{
+  margin-left: 25%;
+}
+.content{
+  top:15%;
+  position: relative;
+  left: 14%;
+}
+
+
+/* .card2{
+    background-image: url(./image/bg1.png);
+    background-size:cover;
+}
+.card3{
+    background-image: url(./image/bg2.png);
+}
+.card4{
+    background-image: url(./image/bg3.png);
+} */
+
+
+.flex-container {
+    margin-top: -4%;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: DodgerBlue;
+    flex-wrap: wrap;
+    background: radial-gradient(46.99% 29.57% at 7.14% 81.61%, rgba(19, 114, 145, 0.5) 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(57.29% 31.76% at 91.96% 86.28%, rgba(30, 184, 8, 0.5) 0%, rgba(92, 45, 153, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(33.82% 43.36% at 5.24% 52.09%, rgba(30, 94, 140, 0.5) 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(30.5% 34.87% at 88.84% 50.53%, rgba(30, 184, 8, 0.5) 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(22.52% 28.87% at 1.01% 18.2%, rgba(30, 94, 140, 0.5) 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(34.72% 23.14% at 69.46% 19.1%, rgba(10, 207, 227, 0.5) 0%, rgba(0, 0, 0, 0) 100%)
+  }
+
+  .flex-container > div {
+    background-color: #2F2F2F;
+    width: 270px;
+    height:340px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .flex-container2 {
+    display: flex;
+    margin: auto;
+    background-color: DodgerBlue;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    width: 90%;
+  }
+
+  .flex-container2 > div {
+    width:400px;
+    height: 500px;
+
+  }
+footer{
+  width:80%;
+  margin: auto;
+}
+
+
+.header1{
+    font-size: 5rem;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    /* border: 2px solid #B2F3B0; */
+    text-shadow: 0px 0px 7px #1EB808, 0px 0px 7px #1EB808, 0px 0px 7px #1EB808, 0px 0px 7px #1EB808, 0px 0px 7px #1EB808, 0px 0px 7px #1EB808;
+}
+.header2{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFF3F3;
+
+}
+.header3{
+  font-family: 'Saira Semi Condensed', sans-serif;
+  margin-left: 26%;
+  color: #FFFFFF;
+}
+.img-res{
+    max-width: 100%;
+    height: auto !important;
+}
+.leftpart{
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.logo{
+    padding-left: 10%;
+}
+.mid{
+  background-color: red;
+}
+.mid1{
+    margin: auto;
+    width: 90%;
+    height: 50vh;
+    background-image: url(./image/highway.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #B2F3B0;
+box-shadow: 0px 0px 10px 5px #1EB808;
+padding-bottom: 20vh;
+}
+.nav-link{
+    color: #FFFFFF;
+}
+.para1{
+    font-family: 'Saira', sans-serif;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+}
+.para2{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    color:#ffffff;
+}
+.para3{
+  font-family: 'Saira', sans-serif;
+  font-size: 2vmin;
+  font-style: normal;
+  font-weight: 700;
+  color:#ffffff;
+
+}
+.play{
+    position: relative;
+    top: 50%;
+    left:50%;
+}
+.shoes{
+    background-image: url(./image/triangle.png);
+    background-repeat: no-repeat;
+    padding-top: 5%;
+}
+
+.triangle{
+    width: 200px;
+    height: 200px;
+}
+.triangle2{
+    position: absolute;
+    overflow: hidden;
+    left: 88%;
+    top: 70%;
+}
+.triangle3{
+    position: absolute;
+    top:75%;
+}
+.top{
+    background-image: url(./image/banner.png);
+}
+.topnext{
+    position: relative;
+    padding-bottom: 50px;
+    background: radial-gradient(46.99% 29.57% at 7.14% 81.61%, rgba(19, 114, 145, 0.5) 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(57.29% 31.76% at 91.96% 86.28%, rgba(30, 184, 8, 0.5) 0%, rgba(92, 45, 153, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(33.82% 43.36% at 5.24% 52.09%, rgba(30, 94, 140, 0.5) 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(30.5% 34.87% at 88.84% 50.53%, rgba(30, 184, 8, 0.5) 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(22.52% 28.87% at 1.01% 18.2%, rgba(30, 94, 140, 0.5) 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(34.72% 23.14% at 69.46% 19.1%, rgba(10, 207, 227, 0.5) 0%, rgba(0, 0, 0, 0) 100%)
+
+}
